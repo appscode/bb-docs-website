@@ -1,0 +1,71 @@
+{
+  "assets": {
+    "dirs": {
+      "data": "data",
+      "files": "static/files",
+      "images": "static/assets/images"
+    },
+    "repoURL": "https://github.com/appscode/static-assets",
+    "version": "master"
+  },
+  "clouds": [
+    "aws",
+    "azure",
+    "gce",
+    "digitalocean",
+    "linode",
+    "openstack",
+    "packet",
+    "baremetal",
+    "docker"
+  ],
+  "footerLinks": [
+    "kubedb",
+    "stash",
+    "kubevault",
+    "kubeform"
+  ],
+  "mainMenu": {
+    "c0": [
+      "kubedb",
+      "stash",
+      "kubevault",
+      "guard"
+    ],
+    "c1": [
+      "voyager",
+      "swift",
+      "searchlight",
+      "kubed"
+    ],
+    "c2": [
+      "pharmer",
+      "kubeform"
+    ]
+  },
+  "ossMenu": {
+    "c0": [
+      "guard",
+      "kubed"
+    ],
+    "c1": [
+      "pharmer",
+      "swift",
+      "searchlight"
+    ]
+  },
+  "productMenu": {
+    "c0": [
+      "kubedb",
+      "stash",
+      "kubevault"
+    ],
+    "c1": [
+      "voyager",
+      "kubeform"
+    ]
+  },
+  "products": [
+    "kubevault"
+  ]
+}
